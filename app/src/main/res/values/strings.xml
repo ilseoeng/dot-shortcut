@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dot 바로가기</string>
+    <string name="app_subtitle">내 dot을 더 빠르게</string>
+
+    <!-- Your dot 연결 -->
+    <string name="card_connection_title">Your dot 연결</string>
+    <string name="card_connection_desc">ChatGPT에 로그인된 계정으로 연결해요</string>
+    <string name="status_need_check">연결 확인 필요</string>
+    <string name="status_user_confirmed">테스트 완료</string>
+    <string name="status_need_retry">다시 확인 필요</string>
+    <string name="status_not_installed">ChatGPT 설치 필요</string>
+    <string name="btn_connection_test">연결 테스트</string>
+    <string name="status_auto_confirmed">연결 확인됨</string>
+    <string name="status_a11y_needed">접근성 필요</string>
+    <string name="test_running">확인 중</string>
+    <string name="test_observing">dot 화면을 확인하고 있어요. 확인 후 이 앱으로 돌아와 주세요.</string>
+    <string name="test_unconfirmed">연결을 확인하지 못했어요. 접근성·ChatGPT 로그인·dot 설정을 확인한 뒤 다시 테스트해 주세요.</string>
+    <string name="shortcut_test_required">연결 테스트를 완료하면 바로가기를 추가할 수 있어요</string>
+    <string name="test_a11y_title">접근성 설정이 필요해요</string>
+    <string name="test_a11y_body">접근성을 켜면 dot 화면이 열렸는지 자동으로 확인할 수 있어요. 테스트 중에는 통화를 걸지 않아요.</string>
+    <string name="test_a11y_return_note">설정 후 이 앱으로 돌아와 ‘연결 테스트’를 눌러 주세요.\n기기에 따라 설정 이름이 다를 수 있어요.</string>
+    <string name="confirmed_at_fmt">사용자 확인 완료 · %s</string>
+    <string name="test_record_notice">이 기록은 실제 연결 상태가 아니라 직접 확인하신 테스트 기록이에요</string>
+
+    <!-- 연결 테스트 확인 다이얼로그 -->
+    <string name="dlg_test_title">내 dot 채팅이 열렸나요?</string>
+    <string name="dlg_test_body">ChatGPT 앱에서 기존 dot 대화 화면이 보였다면 확인해 주세요.</string>
+    <string name="dlg_test_yes">열렸어요</string>
+    <string name="dlg_test_no">열리지 않았어요</string>
+
+    <!-- 실패 안내 -->
+    <string name="dlg_fail_title">dot 채팅으로 이동하지 못했어요</string>
+    <string name="dlg_fail_intro">정확한 원인은 앱에서 자동으로 확인할 수 없어요. 아래를 확인해 보세요.</string>
+    <string name="fail_reason_install">ChatGPT 앱 설치 여부</string>
+    <string name="fail_reason_login">ChatGPT 앱 로그인 여부</string>
+    <string name="fail_reason_dot_setup">dot 설정 완료 여부 (새 dot 생성은 데스크톱에서 가능해요)</string>
+    <string name="fail_reason_version">ChatGPT 앱 버전이 최신인지</string>
+    <string name="btn_open_play_store">Play 스토어 열기</string>
+    <string name="btn_retry">다시 테스트</string>
+    <string name="close">닫기</string>
+
+    <!-- 바로가기 설정 -->
+    <string name="card_shortcut_title">바로가기 설정</string>
+    <string name="shortcut_kind_chat">채팅</string>
+    <string name="shortcut_kind_call">통화</string>
+    <string name="btn_add_shortcut">홈 화면에 바로가기 추가</string>
+    <string name="shortcut_chat">dot 채팅</string>
+    <string name="shortcut_chat_long">dot 채팅 바로 열기</string>
+    <string name="shortcut_call">dot 통화</string>
+    <string name="call_shortcut_invalid">잠금을 해제하고 앱에서 통화 바로가기를 다시 추가해 주세요</string>
+    <string name="shortcut_call_long">dot 통화 바로 걸기</string>
+    <string name="shortcut_disabled">바로가기를 사용할 수 없어요</string>
+    <string name="shortcut_pin_unsupported">이 런처에서는 바로가기 자동 추가를 지원하지 않아요. 앱 아이콘을 길게 눌러 바로가기를 추가해 주세요.</string>
+
+    <!-- 기본 어시스턴트 -->
+    <string name="card_assist_title">기본 어시스턴트</string>
+    <string name="assist_settings_unavailable">설정에서 기본 앱 → 디지털 어시스턴트 앱을 선택해 주세요</string>
+    <string name="assist_set_row">어시스턴트로 설정</string>
+    <string name="assist_set_desc">기기의 어시스턴트 호출로 dot을 열어요</string>
+    <string name="assist_manual_row">기본 앱 설정에서 직접 선택</string>
+    <string name="assist_device_note">버튼이 동작하지 않으면 아래에서 설정 앱을 열어 직접 선택해 주세요. 일부 기기(삼성 등)는 어시스턴트 목록에 이 앱이 표시되지 않아 직접 선택이 지원되지 않을 수 있어요.</string>
+    <string name="assist_action_row">호출 시 동작</string>
+    <string name="assist_action_chat">채팅 열기</string>
+    <string name="assist_action_call">통화 시작</string>
+    <string name="assist_role_current">현재 어시스턴트로 설정됨</string>
+    <string name="assist_role_not_set">설정되지 않음</string>
+
+    <!-- 가이드 화면 -->
+    <string name="guide_call_title">통화 직접 실행은 준비 중이에요</string>
+    <string name="guide_call_body">기존 dot과 바로 통화를 시작하는 외부 연결 경로를 아직 확인하지 못했어요.\n\nChatGPT 앱의 dot 채팅에서 ‘통화’ 버튼을 누르면 통화할 수 있어요.</string>
+    <string name="guide_call_a11y_title">통화 연결 설정</string>
+    <string name="guide_call_a11y_body">처음 한 번만 설정해 주세요.\n접근성을 켜면 dot의 통화 버튼을 대신 눌러줘요.</string>
+    <string name="a11y_step_apps">접근성에서 ‘설치된 앱’ 선택</string>
+    <string name="a11y_step_dot">‘dot 바로가기’ 선택</string>
+    <string name="a11y_step_enable">‘사용’ 켜기 → 권한 안내 확인</string>
+    <string name="a11y_return_note">설정 후 홈 화면의 ‘dot 통화’를 다시 눌러 주세요.\n기기에 따라 설정 이름이 다를 수 있어요.</string>
+    <string name="guide_call_chat_only">채팅만 열기</string>
+    <string name="guide_call_open_chat">채팅 열기</string>
+    <string name="btn_open_a11y_settings">접근성 설정 열기</string>
+    <string name="a11y_service_desc">연결 테스트 시 dot 화면을 확인하고, 통화 바로가기를 누르면 통화 버튼을 대신 눌러줘요</string>
+    <string name="guide_install_title">ChatGPT 앱이 필요해요</string>
+    <string name="guide_install_body">dot 바로가기는 ChatGPT 앱으로 연결돼요. 앱을 설치하고 로그인한 뒤 이용해 주세요.</string>
+    <string name="guide_failed_title">dot 채팅을 열지 못했어요</string>
+    <string name="guide_failed_body">ChatGPT 앱이 링크를 처리하지 못했어요. 앱 버전과 로그인 상태를 확인해 주세요.</string>
+
+    <!-- 하단 -->
+    <string name="footer_note">dot 이용 가능 여부는 계정에 따라 달라요</string>
+    <string name="footer_disclaimer">이 앱은 OpenAI 공식 앱이 아닌 바로가기 도구예요</string>
+</resources>

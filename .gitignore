@@ -1,0 +1,15 @@
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+*.jks
+*.keystore
+*signing*.properties
+/release-assets/
+/screenshot-*.png
+/ui-*.xml
+/REPORT.md
+/UI-UPDATE.md
